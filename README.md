@@ -93,7 +93,7 @@ CREATE TABLE peminjaman (
 
 
 
-\##3. Insert Data
+3. Insert Data
 
 
 
@@ -137,7 +137,7 @@ INSERT INTO anggota (nama, alamat) VALUES
 
 
 
-\##4. Penggunaan AUTO\_INCREMENT
+4. Penggunaan AUTO\_INCREMENT
 
 
 
@@ -158,6 +158,7 @@ INSERT INTO buku (judul, penulis, tahun\_terbit)
 VALUES ('Belajar SQL Dasar', 'Dewi Santika', 2022);
 
 -- id\_buku akan otomatis menjadi 1, 2, 3, dst.
+
 
 
 
