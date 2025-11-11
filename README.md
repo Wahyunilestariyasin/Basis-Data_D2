@@ -30,11 +30,10 @@ USE perpustakaan;
 
 
 
-\## 2. Struktur Tabel
+2. Struktur Tabel
 
 
-
-&nbsp; A.Tabel Anggota
+ A.Tabel Anggota
 
 
 
@@ -159,6 +158,7 @@ INSERT INTO buku (judul, penulis, tahun\_terbit)
 VALUES ('Belajar SQL Dasar', 'Dewi Santika', 2022);
 
 -- id\_buku akan otomatis menjadi 1, 2, 3, dst.
+
 
 
 
