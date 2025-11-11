@@ -4,7 +4,7 @@
 
 \## Tentang Proyek
 
-Proyek ini dibuat oleh \*\*Wahyuni Lestari Yasin\*\* sebagai latihan dasar dalam membuat dan mengelola database menggunakan \*\*MySQL\*\*.  
+Proyek ini dibuat sebagai latihan dasar dalam membuat dan mengelola database menggunakan \*\*MySQL\*\*.  
 
 Fokus utama proyek ini adalah pembuatan \*\*database\*\*, \*\*tabel\*\*, dan \*\*insert data\*\* dengan total 15 data di setiap tabel, serta penggunaan \*\*primary key otomatis bertambah (AUTO\_INCREMENT)\*\*.
 
@@ -158,6 +158,7 @@ INSERT INTO buku (judul, penulis, tahun\_terbit)
 VALUES ('Belajar SQL Dasar', 'Dewi Santika', 2022);
 
 -- id\_buku akan otomatis menjadi 1, 2, 3, dst.
+
 
 
 
