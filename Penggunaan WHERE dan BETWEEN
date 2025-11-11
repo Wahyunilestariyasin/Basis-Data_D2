@@ -1,0 +1,34 @@
+-- ==================================================
+-- DATABASE PERPUSTAKAAN
+-- Deskripsi: Contoh penggunaan WHERE dan BETWEEN untuk setiap tabel
+-- ==================================================
+
+-- TABEL ANGGOTA
+-- Menampilkan anggota yang tinggal di Mamuju
+SELECT * FROM anggota
+WHERE alamat = 'Mamuju';
+
+-- TABEL ANGGOTA 
+-- Menampilkan anggota dengan id antara 5 dan 10
+SELECT * FROM anggota
+WHERE id_anggota BETWEEN 5 AND 10;
+
+-- ==================================================
+-- TABEL BUKU
+-- Menampilkan buku yang ditulis oleh penulis tertentu
+SELECT * FROM buku
+WHERE penulis = 'Gita Sari';
+
+-- Menampilkan buku yang terbit antara tahun 2020 dan 2023
+SELECT * FROM buku
+WHERE tahun_terbit BETWEEN 2020 AND 2023;
+
+-- ==================================================
+-- TABEL PEMINJAMAN
+-- Menampilkan peminjaman oleh anggota dengan id_anggota = 3
+SELECT * FROM peminjaman
+WHERE id_anggota = 3;
+
+-- Menampilkan peminjaman dengan tanggal pinjam antara 2024-01-01 dan 2024-12-31
+SELECT * FROM peminjaman
+WHERE tanggal_pinjam BETWEEN '2024-01-01' AND '2024-12-31';
