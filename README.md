@@ -1,25 +1,19 @@
-\ Proyek Database Perpustakaan
+# Proyek Database Perpustakaan
 
-
-
-\Tentang Proyek
+Tentang Proyek
 
 Proyek ini dibuat sebagai latihan dasar dalam membuat dan mengelola database menggunakan MySQL.  
 
-Fokus utama proyek ini adalah pembuatan database, tabel, dan insert data dengan total 15 data di setiap tabel, serta penggunaan primary key otomatis bertambah (AUTO\_INCREMENT)
-
-
+Fokus utama proyek ini adalah pembuatan database, tabel, dan insert data dan akan berlanjut dengan penggunaan Query.
 
 ---
 
 
 
-\1. Membuat Database
+1. Membuat Database
 
-
-
-Database utama bernama \*\*`perpustakaan`\*\*, yang berfungsi sebagai wadah untuk menyimpan seluruh tabel dan data.
-
+Database utama bernama 
+perpustakaan, yang berfungsi sebagai wadah untuk menyimpan seluruh tabel dan data.
 
 
 ```sql
@@ -28,14 +22,9 @@ CREATE DATABASE perpustakaan;
 
 USE perpustakaan;
 
-
-
 2. Struktur Tabel
 
-
  A.Tabel Anggota
-
-
 
 CREATE TABLE anggota (
 
@@ -50,8 +39,6 @@ CREATE TABLE anggota (
 
 
 B. Tabel Buku 
-
-
 
 CREATE TABLE buku (
 
@@ -68,8 +55,6 @@ CREATE TABLE buku (
 
 
 C.Tabel Peminjaman
-
-
 
 CREATE TABLE peminjaman (
 
@@ -95,11 +80,7 @@ CREATE TABLE peminjaman (
 
 3. Insert Data
 
-
-
 A.Memasukkan data ke table Anggota
-
-
 
 INSERT INTO anggota (nama, alamat) VALUES
 
@@ -135,11 +116,7 @@ INSERT INTO anggota (nama, alamat) VALUES
 
 
 
-
-
 4. Penggunaan AUTO\_INCREMENT
-
-
 
 Setiap tabel memiliki kolom id\_... yang menjadi PRIMARY KEY dan diatur menggunakan AUTO\_INCREMENT.
 
@@ -158,6 +135,7 @@ INSERT INTO buku (judul, penulis, tahun\_terbit)
 VALUES ('Belajar SQL Dasar', 'Dewi Santika', 2022);
 
 -- id\_buku akan otomatis menjadi 1, 2, 3, dst.
+
 
 
 
