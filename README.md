@@ -1,7 +1,7 @@
 NAMA : WAHYUNI LESTARI YASIN
 
 NIM  :D0224337
---- ==================================
+---
 # Proyek Database Perpustakaan
 
 Tentang Proyek
@@ -139,6 +139,7 @@ INSERT INTO buku (judul, penulis, tahun\_terbit)
 VALUES ('Belajar SQL Dasar', 'Dewi Santika', 2022);
 
 -- id\_buku akan otomatis menjadi 1, 2, 3, dst.
+
 
 
 
